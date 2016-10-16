@@ -1,3 +1,40 @@
-p {
-  color: black;
+h1, h2, h3, h4, h5, h6, p, li, a {
+  color: #4A4A4A !important;
+  font-family: 'Roboto', sans-serif !important;
+}
+
+body {
+  margin-top: 5em !important;
+}
+
+.b-lrg-margin {
+  margin-bottom: 3em;
+}
+
+.b-med-margin {
+  margin-bottom: 2em;
+}
+
+.b-sml-margin {
+  margin-bottom: 1em;
+}
+
+ul.contact-list {
+  list-style: none !important;
+  margin-left: 0em;
+}
+
+.march-dev-logo {
+  display: block;
+  margin: auto;
+  max-width: 300px;
+  margin-top: 0em;
+  margin-bottom: 5em;
+}
+
+.list-item-focus {
+  color: inherit;
+  &:hover {
+    color:blue;
+  }
 }
