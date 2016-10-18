@@ -28,9 +28,9 @@ ul.contact-list {
 }
 
 .march-dev-logo {
+  max-width: 300px;
   display: block;
   margin: auto;
-  max-width: 300px;
   margin-top: 0em;
   margin-bottom: 5em;
 }
@@ -38,12 +38,15 @@ ul.contact-list {
 .list-item-focus {
   color: inherit;
   &:hover {
-    color:blue;
+    font-weight: bold;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .march-dev-info {
     text-align: center !important;
+  }
+  .march-dev-logo {
+    max-width: 200px;
   }
 }
