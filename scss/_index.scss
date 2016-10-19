@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, p, li, a {
 }
 
 body {
-  margin-top: 5em !important;
+  margin-top: 3em !important;
 }
 
 .b-lrg-margin {
@@ -31,8 +31,11 @@ ul.contact-list {
   max-width: 300px;
   display: block;
   margin: auto;
+  padding: 5px;
   margin-top: 0em;
-  margin-bottom: 5em;
+  margin-bottom: 2em;
+  border: 1px solid #4A4A4A;
+  border-radius: 100%;
 }
 
 .list-item-focus {
@@ -42,10 +45,11 @@ ul.contact-list {
   }
 }
 
+.march-dev-info {
+  text-align: center !important;
+}
+
 @media (max-width: 640px) {
-  .march-dev-info {
-    text-align: center !important;
-  }
   .march-dev-logo {
     max-width: 200px;
   }
